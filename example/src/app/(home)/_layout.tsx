@@ -143,6 +143,10 @@ export default function Layout() {
             animationDuration: 300,
           }}
         />
+        <Stack.Screen
+          name="sign-in"
+          options={{ title: 'Sign In' }}
+        />
       </Stack>
     </View>
   );

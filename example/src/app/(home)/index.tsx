@@ -62,6 +62,16 @@ const cards: HomeCardProps[] = [
     footer: 'View components in action',
     path: 'showcases',
   },
+  {
+    title: 'Sign In',
+    imageLight:
+      'https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/images/heroui-native-example/home-components-light.png',
+    imageDark:
+      'https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/images/heroui-native-example/home-components-dark.png',
+    count: 1,
+    footer: 'Authentication screen example',
+    path: 'sign-in',
+  },
 ];
 
 const HomeCard: FC<HomeCardProps & { index: number }> = ({
